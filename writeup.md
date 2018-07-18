@@ -55,7 +55,7 @@ signs data set:
 
 Here is an exploratory visualization of the data set. 
 TODO
-![alt text][image1]
+![alt text](https://goo.gl/c9txCC)
 
 ### Design and Test a Model Architecture
 
@@ -131,6 +131,7 @@ If an iterative approach was chosen:
 ### Test a Model on New Images
 
 #### 1. Choose five German traffic signs found on the web and provide them in the report. For each image, discuss what quality or qualities might be difficult to classify.
+![alt text](https://goo.gl/iLUJE2)
 
 I think the brightness and the angle of the traffic signs are the most crucial factor when it comes to choosing images. Both of them will deeply affect the result. Besides, background images should be taken into consideration especially the background contains other traffic signs, which will be totally confusing, even to the humans. 
 
