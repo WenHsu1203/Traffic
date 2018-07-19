@@ -150,7 +150,7 @@ The result says the accuracy is 100%, which means my model can classify:
 
 #### 3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction. Provide the top 5 softmax probabilities for each image along with the sign type of each probability. (OPTIONAL: as described in the "Stand Out Suggestions" part of the rubric, visualizations can also be provided such as bar charts)
 
-The code for making predictions on my final model is located in the 37th cell of the Ipython notebook.
+The code for making predictions on my final model is located in the 22th cell of the Ipython notebook.
 
 
 
