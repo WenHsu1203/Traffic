@@ -2,9 +2,6 @@
 
 ## Writeup
 
-### You can use this file as a template for your writeup if you want to submit it as a markdown file, but feel free to use some other method and submit a pdf if you prefer.
-
----
 
 **Build a Traffic Sign Recognition Project**
 
@@ -135,6 +132,12 @@ If an iterative approach was chosen:
 
 I think the brightness and the angle of the traffic signs are the most crucial factor when it comes to choosing images. Both of them will deeply affect the result. Besides, background images should be taken into consideration especially the background contains other traffic signs, which will be totally confusing, even to the humans. 
 
+Discussion for each of the images:
+1. Children crossing: This one is a little bit hard since its background is a little bit complicated, but its brightness and angle are pretty good for classifying. The sign is at the center of the image and I can clearly see it with my eyes.
+2. Roundabout mandatory: I am quite surpriesed the model successfully classify this one since it's a little dark and the angle is skewed, too, which means it's not easy for model to classify.
+3. Speed limit (20km/h): This one mught be the easiest one because the image is bright enough and the backgorund is 80% white, which is extremely easy for classify.
+4. Turn left ahead: This sign's condition is similar to the children crossing with complicated background but good brightness and angle.
+5. Yield: Not too dark and the angle is right, but the white color accounts for most of the portion of the sign, which happens to be the background, so I am worried this factor might affect the classification.
 
 #### 2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
 
