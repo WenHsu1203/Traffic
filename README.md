@@ -51,10 +51,10 @@ My final model consisted of the following layers:
 | Fully connected    | 43                                                                    |
 
 ### Details of How I Train the Model
-Number of epochs: _20_
-Batch size : _32_
-Learning rate: _0.0007_
-Type of optimizer: _Adam optimizer_
+* Number of epochs: _20_
+* Batch size : _32_
+* Learning rate: _0.0007_
+* Type of optimizer: _Adam optimizer_
 
 
 # Result
